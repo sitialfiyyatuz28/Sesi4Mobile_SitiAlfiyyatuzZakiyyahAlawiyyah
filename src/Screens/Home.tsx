@@ -26,7 +26,7 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
                 Location
               </Text>
               <Text style={{fontWeight: 600, color: '#DDDDDD', fontSize: 14}}>
-                Seoul, South Korea
+                Sukabumi, Jawa Barat
               </Text>
             </View>
             <Image
@@ -39,7 +39,7 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
             placeholder="Search Coffee"></TextInput>
           <View style={styles.banner}>
             <Image
-              source={require('../assets/img/coffee.png')}
+              source={require('../assets/img/minuman.jpeg')}
               style={styles.bannercoffee}
             />
             <Text
@@ -93,7 +93,7 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
                     paddingHorizontal: 10,
                     marginEnd: 8,
                   }}>
-                  <Text style={{}}>Machiato</Text>
+                  <Text style={{}}>Macciato</Text>
                 </TouchableOpacity>
                 <TouchableOpacity
                   style={{
@@ -105,7 +105,7 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
                     paddingHorizontal: 10,
                     marginEnd: 8,
                   }}>
-                  <Text style={{}}>Latte</Text>
+                  <Text style={{}}>Milk</Text>
                 </TouchableOpacity>
                 <TouchableOpacity
                   style={{
@@ -117,7 +117,7 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
                     paddingHorizontal: 10,
                     marginEnd: 8,
                   }}>
-                  <Text style={{}}>Americano</Text>
+                  <Text style={{}}>Coffee</Text>
                 </TouchableOpacity>
               </ScrollView>
             </View>
@@ -125,11 +125,11 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
               <View style={styles.card1}>
                 <TouchableOpacity onPress={() =>navigation.navigate('Detail')}>
                 <Image
-                  source={require('../assets/img/cappuccino.png')}
+                  source={require('../assets/img/minuman1.jpg')}
                   style={{width: 140, height: 130, borderRadius: 15}}
                 />
                 <Text style={styles.rating}>
-                  <Text style={styles.star}>★</Text> 4.8
+                  <Text style={styles.star}>★</Text> 4.9
                 </Text>
                 <Text
                   style={{
@@ -140,7 +140,7 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
                     paddingStart: 5,
                     top: -15,
                   }}>
-                  Cappuccino
+                  Red Velvet
                 </Text>
                 <Text
                   style={{
@@ -150,7 +150,7 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
                     paddingStart: 5,
                     top: -15,
                   }}>
-                  With Chocolate
+                  Minuman lembut
                 </Text>
                 <Text
                   style={{
@@ -161,7 +161,7 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
                     paddingStart: 5,
                     top: -15,
                   }}>
-                  $4.53
+                  Rp. 35.000
                 </Text>
                 <View style={styles.addButton}>
                   <Text
@@ -177,11 +177,11 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
               </View>
               <View style={styles.card2}>
                 <Image
-                  source={require('../assets/img/Machiato.png')}
+                  source={require('../assets/img/minuman_green.jpg')}
                   style={{width: 140, height: 130, borderRadius: 15}}
                 />
                 <Text style={styles.rating}>
-                  <Text style={styles.star}>★</Text> 4.9
+                  <Text style={styles.star}>★</Text> 4.7
                 </Text>
                 <Text
                   style={{
@@ -192,7 +192,7 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
                     paddingStart: 5,
                     top: -15,
                   }}>
-                  Machiato
+                  Green Tea
                 </Text>
                 <Text
                   style={{
@@ -202,7 +202,7 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
                     paddingStart: 5,
                     top: -15,
                   }}>
-                  With Oat Milk
+                  Minuman teh hijau
                 </Text>
                 <Text
                   style={{
@@ -213,7 +213,7 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
                     paddingStart: 5,
                     top: -15,
                   }}>
-                  $3.90
+                  Rp. 25.000
                 </Text>
                 <View style={styles.addButton}>
                   <Text
@@ -224,11 +224,11 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
               </View>
               <View style={styles.card3}>
                 <Image
-                  source={require('../assets/img/latte.png')}
+                  source={require('../assets/img/minuman2.jpg')}
                   style={{width: 140, height: 130, borderRadius: 15}}
                 />
                 <Text style={styles.rating}>
-                  <Text style={styles.star}>★</Text> 4.5
+                  <Text style={styles.star}>★</Text> 4.8
                 </Text>
                 <Text
                   style={{
@@ -239,7 +239,7 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
                     paddingStart: 5,
                     top: -15,
                   }}>
-                  Latte
+                  Mochachino
                 </Text>
                 <Text
                   style={{
@@ -249,7 +249,7 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
                     paddingStart: 5,
                     top: -15,
                   }}>
-                  With Milk
+                  Campuran kopi
                 </Text>
                 <Text
                   style={{
@@ -260,7 +260,7 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
                     paddingStart: 5,
                     top: -15,
                   }}>
-                  $5.25
+                  Rp. 27.000
                 </Text>
                 <View style={styles.addButton}>
                   <Text
@@ -271,11 +271,11 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
               </View>
               <View style={styles.card4}>
                 <Image
-                  source={require('../assets/img/americano.png')}
+                  source={require('../assets/img/minuman3.jpeg')}
                   style={{width: 140, height: 130, borderRadius: 15}}
                 />
                 <Text style={styles.rating}>
-                  <Text style={styles.star}>★</Text> 4.0
+                  <Text style={styles.star}>★</Text> 4.6
                 </Text>
                 <Text
                   style={{
@@ -286,7 +286,7 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
                     paddingStart: 5,
                     top: -15,
                   }}>
-                  Americano
+                  Mango Milk
                 </Text>
                 <Text
                   style={{
@@ -296,7 +296,7 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
                     paddingStart: 5,
                     top: -15,
                   }}>
-                  Original Coffee
+                  Minuman mangga
                 </Text>
                 <Text
                   style={{
@@ -307,7 +307,7 @@ const Home: React.FC<HomeProps> = ({navigation}) => {
                     paddingStart: 5,
                     top: -15,
                   }}>
-                  $4.50
+                  Rp. 30.000
                 </Text>
                 <View style={styles.addButton}>
                   <Text
