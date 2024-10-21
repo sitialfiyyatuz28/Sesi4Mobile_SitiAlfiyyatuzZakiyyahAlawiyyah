@@ -46,8 +46,8 @@ const Order:React.FC<OrderProps>=({navigation}) => {
                     </TouchableOpacity>
                 </View>
                 <Text style = {{ color: '#2F2D2C', fontWeight: 'bold', fontSize: 18, marginVertical: 10 }}>Delivery Address</Text>
-                <Text style = {{ color: '#2F2D2C', fontWeight: 'bold', fontSize: 16, marginBottom: 5}}> Jl. Gangnam</Text>
-                <Text style = {{ color: '#808080', fontWeight: 400, fontSize: 16, marginBottom: 10}}>Kpg. Gangnam No. 620, Seoul, South Korea</Text>
+                <Text style = {{ color: '#2F2D2C', fontWeight: 'bold', fontSize: 16, marginBottom: 5}}> Jl. Karang tengah</Text>
+                <Text style = {{ color: '#808080', fontWeight: 400, fontSize: 16, marginBottom: 10}}>Kp. Selamanjah - Sukabumi, Jawa Barat</Text>
                 <View style= {{ flexDirection: 'row' }}>
                 <TouchableOpacity style ={{ borderWidth: 2, borderColor: '#DEDEDE', borderRadius: 20, padding: 10, flexDirection: 'row', width:150, justifyContent: 'center', marginEnd: 10 }}>
                     <Image source = {require('../assets/img/edit.png')} style = {{width: 20, height: 20}}/>
@@ -60,10 +60,10 @@ const Order:React.FC<OrderProps>=({navigation}) => {
                 </View>
                 <View style={{ borderWidth: 1, borderColor: '#EAEAEA', width:'auto', height:1, marginTop: 20, marginEnd: 10 }}></View>
                 <View style = {styles.calculate}>
-                    <Image source={require('../assets/img/cappuccino.png')} style = {{width: 55, height: 55, borderRadius: 12}}/>
+                    <Image source={require('../assets/img/minuman1.jpg')} style = {{width: 55, height: 55, borderRadius: 12}}/>
                     <View style= {styles.choice}>
-                    <Text style = {{ color: '#2F2D2C', fontWeight: 600 }}>Cappucino</Text>
-                    <Text>With Chocolate</Text>
+                    <Text style = {{ color: '#2F2D2C', fontWeight: 600 }}>Red Velvet</Text>
+                    <Text>Minuman lembut</Text>
                     </View>
                     <View style={styles.calculator}>
                         <TouchableOpacity onPress={handleDecrement} style={styles.button}>
@@ -83,17 +83,17 @@ const Order:React.FC<OrderProps>=({navigation}) => {
                 </View>
                 <Text style = {{ fontWeight: 600, fontSize: 18, color: '#2F2D2C', marginBottom: 10 }}>Payment Summary</Text>
                 <View style = {{ flexDirection: 'row', justifyContent: 'space-between', padding: 5 }}>
-                    <Text style ={{ fontSize: 14, fontWeight: 400, color: '#2F2D2C'}}>Price</Text>
-                    <Text style ={{ fontSize: 14, fontWeight: 600, color: '#2F2D2C'}}>$ 4.53</Text>
+                    <Text style ={{ fontSize: 14, fontWeight: 400, color: '#2F2D2C'}}>Harga</Text>
+                    <Text style ={{ fontSize: 14, fontWeight: 600, color: '#2F2D2C'}}>Rp. 35.000</Text>
                 </View>
                 <View style = {{flexDirection: 'row', justifyContent: 'space-between', padding: 5}}>
                     <Text style ={{ fontSize: 14, fontWeight: 400, color: '#2F2D2C'}}>Delivery Free</Text>
-                    <View><Text style ={{ fontSize: 14, fontWeight: 400, color: '#2F2D2C', textDecorationLine: 'line-through', marginStart: 160}}>$ 2.0</Text></View><Text style ={{ fontSize: 14, fontWeight: 600, color: '#2F2D2C'}}>$ 1.0</Text>
+                    <View><Text style ={{ fontSize: 14, fontWeight: 400, color: '#2F2D2C', textDecorationLine: 'line-through', marginStart: 160}}>Rp.10k</Text></View><Text style ={{ fontSize: 14, fontWeight: 600, color: '#2F2D2C'}}>Rp.5k</Text>
                 </View>
                 <View style={{ borderWidth: 1, borderColor: '#EAEAEA', width:'auto', height:1, marginTop: 20, marginEnd: 10 }}></View>
                 <View style = {{flexDirection: 'row', justifyContent: 'space-between', padding: 5, marginVertical: 10}}>
                     <Text style ={{ fontSize: 14, fontWeight: 400, color: '#2F2D2C'}}>Total Payment</Text>
-                    <Text style ={{ fontSize: 14, fontWeight: 600, color: '#2F2D2C', marginStart: 160}}>$ 5.53</Text>
+                    <Text style ={{ fontSize: 14, fontWeight: 600, color: '#2F2D2C', marginStart: 160}}>Rp. 40.000</Text>
                 </View>
                 <View style = {{ flexDirection: 'row', padding: 5, justifyContent:'space-between' }}>
                     <Image source = {require ('../assets/img/moneys.png')} style ={{ width: 24, height: 24 }}/>
@@ -101,7 +101,7 @@ const Order:React.FC<OrderProps>=({navigation}) => {
                     <TouchableOpacity style ={{ backgroundColor: '#C67C4E', padding: 2, borderRadius: 15, width: 75, height: 25}}>
                         <Text style ={{ color: 'white', textAlign: 'center', fontSize: 14 }}>Cash</Text>
                     </TouchableOpacity>
-                    <Text style = {{ color: '#2F2D2C', marginStart: 10, fontWeight: 400 }}>$ 5.53</Text>
+                    <Text style = {{ color: '#2F2D2C', marginStart: 10, fontWeight: 400 }}>50.000</Text>
                     </View>
                     <Image source = {require ('../assets/img/dots.png')} style = {{width: 24, height: 24}}/>
                 </View>
