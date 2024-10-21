@@ -26,18 +26,18 @@ const Detail:React.FC<DetailProps>=({navigation}) => {
                 <Text style ={{ fontSize: 20, color: '#2F2D2C', fontWeight: 600, textAlign: 'center' }}>Detail</Text>
                 <Image source ={require('../assets/img/Heart2.png')} style ={{width: 24, height: 24}}/>
             </View>
-            <Image source = {require('../assets/img/cappuccino.png')} style={styles.imageCapp}/>
-            <Text style={{ fontWeight: 600, fontSize:24, color: '#2F2D2C' }}>Cappucino</Text>
-            <Text style ={{ fontSize: 14, fontWeight: 400, color: '#9B9B9B', lineHeight: 25 }}>With Chocolate</Text>
+            <Image source = {require('../assets/img/minuman1.jpg')} style={styles.imageCapp}/>
+            <Text style={{ fontWeight: 600, fontSize:24, color: '#2F2D2C' }}>Red Velvet</Text>
+            <Text style ={{ fontSize: 14, fontWeight: 400, color: '#9B9B9B', lineHeight: 25 }}>Minuman lembut</Text>
             <View style={styles.ratingContainer}>
             <Text style={styles.rating}>
-                  <Text style={styles.star}>★</Text> 4.8 <Text style={{ color: '9B9B9B', fontWeight:400, fontSize:14 }}>(230)</Text>
+                  <Text style={styles.star}>★</Text> 4.9 <Text style={{ color: '9B9B9B', fontWeight:400, fontSize:14 }}>(230)</Text>
             </Text>
             <View style = {{ backgroundColor: '#F9F9F9', padding: 10, borderRadius:15 }}><Image source= {require('../assets/img/bean.png')} style={{width: 24, height: 24}}/></View>
             <View style = {{ backgroundColor: '#F9F9F9', padding: 10, borderRadius:15 }}><Image source= {require('../assets/img/milk.png')} style={{width: 24, height: 24}}/></View>
             </View>
             <Text style={{ fontSize: 20, fontWeight: 600, color: '#2F2D2C', paddingVertical: 10 }}>Description</Text>
-            <Text style ={{ fontSize: 14, fontWeight: 400, textAlign:'justify', lineHeight: 20, paddingBottom: 10 }}>A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the fo.. <Text style ={{ fontWeight: 'bold', color: '#C67C4E' }}>Read More</Text></Text>
+            <Text style ={{ fontSize: 14, fontWeight: 400, textAlign:'justify', lineHeight: 20, paddingBottom: 10 }}>Red velvet adalah minuman lembut dan lezat yang mirip dengan kue <Text style ={{ fontWeight: 'bold', color: '#C67C4E' }}>Read More</Text></Text>
             <Text style ={{ fontWeight: 600, fontSize: 20, color:'#2F2D2C', paddingVertical: 5 }}>Size</Text>
             <View style = {styles.sizeCon}>
                 <View style={styles.s}>
@@ -53,8 +53,8 @@ const Detail:React.FC<DetailProps>=({navigation}) => {
             <View style={{ borderWidth: 1, borderColor: '#EAEAEA', width:'auto', height:1, marginVertical: 10 }}></View>
             <View style={styles.price}>
                 <View style={styles.priceText }>
-                <Text style ={{ fontSize: 20 }}>Price</Text>
-                <Text style ={{ fontSize: 20, color: '#C67C4E', fontWeight: 'bold' }}>$ 4.53</Text>
+                <Text style ={{ fontSize: 20 }}>Harga</Text>
+                <Text style ={{ fontSize: 20, color: '#C67C4E', fontWeight: 'bold' }}>Rp. 35.000</Text>
                 </View>
                 <TouchableOpacity onPress={() =>navigation.navigate('Order')} style={{ width: 180, height: 60, backgroundColor: '#C67C4E', padding: 10, borderRadius: 15, alignItems: 'center', justifyContent: 'center' }}><Text style={{ color: 'white', fontWeight: 'bold', fontSize: 18 }}>Buy Now</Text></TouchableOpacity>
             </View>
